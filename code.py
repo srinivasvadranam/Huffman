@@ -92,6 +92,7 @@ class HuffmanCoding:
 
 
     #OOK
+    #Fine
 	def get_byte_array(self, padded_encoded_text):
 	
     	if(len(padded_encoded_text) % 8 != 0):
