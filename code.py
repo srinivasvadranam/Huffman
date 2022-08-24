@@ -91,8 +91,10 @@ class HuffmanCoding:
 		return encoded_text
 
 
+    #OOK
 	def get_byte_array(self, padded_encoded_text):
-		if(len(padded_encoded_text) % 8 != 0):
+	
+    	if(len(padded_encoded_text) % 8 != 0):
 			print("Encoded text not padded properly")
 			exit(0)
 
